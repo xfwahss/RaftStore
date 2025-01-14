@@ -89,6 +89,10 @@ public:
 
     void setLogPath(std::string &path);
 
+    void setDispTimeStamps(bool disp);
+
+    void setDispLogLevel(bool disp);
+
 
     ~Logger();
 

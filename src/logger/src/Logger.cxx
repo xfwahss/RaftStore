@@ -84,4 +84,12 @@ std::string Logger::logLevelToString(Logger::LogLevel level) {
     }
 }
 
+void Logger::setDispTimeStamps(bool disp) {
+    this->dispTimeStamps = disp;
+}
+
+void Logger::setDispLogLevel(bool disp) {
+    this->dispLogLevel = disp;
+}
+
 
